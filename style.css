@@ -1,0 +1,58 @@
+.color{
+    color:hsl(172, 67%, 45%);
+    color:hsl(183, 100%, 15%);
+    color:hsl(186, 14%, 43%);
+    color:hsl(184, 14%, 56%);
+    color:hsl(185, 41%, 84%);
+    color:hsl(189, 41%, 97%);
+    color:hsl(0, 0%, 100%);
+}
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Space Mono', monospace;
+}
+
+.background{
+    background-color: hsl(185, 41%, 84%);
+    
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container{
+    display:grid;
+        width: 720px;
+        height: 400px;
+        grid-template-columns: 1fr 1fr  ;
+        /* grid-template-rows: 1fr 1fr ; */
+    border-radius: 8px;
+    background-color:hsl(0, 0%, 100%);
+    margin: auto;
+}
+
+.form1{
+    background-color: red;
+    margin: auto;
+    height: 80%;
+    width: 90%;
+    /* border: 2px; */
+}
+.title{
+    color:hsl(186, 14%, 43%) ;
+    font-size: 16px;
+}
+
+.form2{
+    background-color: hsl(183, 100%, 15%);
+    margin: auto;
+    height: 80%;
+    width: 90%;
+    
+}
+
+
