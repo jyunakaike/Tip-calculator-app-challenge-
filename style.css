@@ -19,7 +19,7 @@ body{
 .logo{
     display: flex;
     justify-content: center;
-    align-items: center;
+align-items: center;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -36,23 +36,106 @@ body{
 }
 
 .form1{
-    background-color: red;
+    /* background-color: red; */
     margin: auto;
     height: 80%;
-    width: 90%;
+    /* width: 90%; */
     /* border: 2px; */
 }
-.title{
-    color:hsl(186, 14%, 43%) ;
-    font-size: 16px;
+.input{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+    margin-bottom: 10px;
+    border: none;
+    background-color:hsl(189, 41%, 97%);
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+.title{
+    color:hsl(183, 100%, 15%) ;
+    font-size: 16px;
+    
+}
+.percentages{
+    display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap:5px;
+        place-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.percentage{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 80px;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+}
+
+
 
 .form2{
     background-color: hsl(183, 100%, 15%);
     margin: auto;
     height: 80%;
     width: 90%;
-    
+    border-radius: 8px;
 }
+
+.details{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    /* gap:5px; */
+    place-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.detail{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+.title2{
+    color:hsl(189, 41%, 97%);
+    font-size: 16px;
+}
+.subTitle2{
+    color:hsl(184, 14%, 56%);
+    font-size: 16px;
+}
+
+.price{
+    color:hsl(172, 67%, 45%);
+    font-size: 16px;
+}
+
+.button{
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+
+
+    border-radius: 8px;
+    border: none;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
+
+
+
+
 
 
