@@ -10,9 +10,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-
-
   <link rel="stylesheet" href="./style.css">
 
   <title>Frontend Mentor | Tip calculator app</title>
@@ -23,13 +20,11 @@
       font-size: 11px;
       text-align: center;
     }
-
     .attribution a {
       color: hsl(228, 45%, 44%);
     }
   </style>
 </head>
-
 <body class="background">
   <div>
     <img class="logo" src="./images/logo.svg" alt="logo">
@@ -37,8 +32,9 @@
   <div class="container">
     <div class="form1">
       <label class="title">Bill</label>
-      <input class="input" type="text">
-
+      <div class="input-icon">
+        <input class="input" type="text" >
+      </div>
       <label class="title">Select Tip %</label>
       <div class="percentages" >
         <div class="percentage">
@@ -84,15 +80,14 @@
           <label class="price">$ 0.00</label>
         </div>
 
-      </div>
-
-      <div class="detail" >
         <button class="button">
           Reset
         </button>
-        
-      </div>
 
+        
+
+      </div>
+      
     </div>
   </div>
   <div class="attribution">
