@@ -60,6 +60,27 @@ body{
     background-repeat: no-repeat;
     background-position: 7px 12px;
 }
+.bill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    border: none;
+    background-color:hsl(189, 41%, 97%);
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    text-align: right;
+    font-size: 16px;
+    font-family: 'Space Mono', monospace;
+
+    background-image: url(images/icon-dollar.svg);
+    background-repeat: no-repeat;
+    background-position: 7px 12px;
+}
+
 .peopleInput{
     display: flex;
         justify-content: center;
@@ -94,6 +115,7 @@ body{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 .percentage{
     display:flex;
     align-items: center;
@@ -104,6 +126,30 @@ body{
     border-radius: 8px;
     color: white;
     font-weight: bold;
+}
+.percentage:hover{
+    background: hsl(172, 67%, 45%);
+    cursor: pointer;
+}
+.active{
+    background:hsl(172, 67%, 45%);
+}
+.activeBtn{
+    background:hsl(172, 67%, 45%);
+}
+
+.custom{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 80px;
+    background-color:hsl(189, 41%, 97%);
+    
+    border-radius: 8px;
+    color: hsl(183, 100%, 15%);
+    font-weight: bold;
+    
 }
 
 .form2{
@@ -154,6 +200,16 @@ body{
     font-size: 26px;
     font-weight: bold;
 }
+.tipAmount{
+    color:hsl(172, 67%, 45%);
+    font-size: 26px;
+    font-weight: bold;
+}
+.total{
+    color:hsl(172, 67%, 45%);
+    font-size: 26px;
+    font-weight: bold;
+}
 
 .button{
     background-color: hsl(172, 67%, 45%);
@@ -169,6 +225,19 @@ body{
     grid-column-start: 1;
     grid-column-end: 3;
 }
+
+
+.inputError {
+    background-color: #FF0000;
+    background-image: url(exclamation_mark.png);
+    background-position: right 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
+    -o-background-size: contain;
+}
+
 
 
 @media (max-width:375px) {
