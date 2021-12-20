@@ -24,6 +24,7 @@
       color: hsl(228, 45%, 44%);
     }
   </style>
+  
 </head>
 <body class="background">
   <div>
@@ -52,8 +53,7 @@
         <button class="percentage" value="50" onclick="percentageClick(value)">
           50%  
         </button>
-        <input class="custom" id="input" type="number" min="0" placeholder="0">
-          Custom  
+        <input class="custom" id="input" type="number" min="0" placeholder="Custom" onchange="percentageClick(value)">
         </input>
         
       </div>
@@ -81,7 +81,7 @@
           <label class="total">$ 0.00</label>
         </div>
 
-        <button class="button">
+        <button class="button" onclick="resetButton()">
           Reset
         </button>
 
